@@ -21,13 +21,12 @@ header{
 
 
 header #profilePic img{
-
+    float: left;
     border-radius: 100%;
     width: 20%;
     height: auto;
     overflow: hidden;
     position: relative;
-    display: inline-block;
     margin: 50px 50px;
 }
 
@@ -45,8 +44,10 @@ header #profilePic img{
 }
 
 #address{
-    align-items: center
-    display: inline-block;
+    font-weight: 500;
+    font-size: 15px;
+    align-items: center;
+    float: right;
     margin: 50px 50px;
 }
 
